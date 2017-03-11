@@ -1,0 +1,8 @@
+libilclient1
+libilclient-dev
+files
+tmp
+*.debhelper
+*.substvars
+*.symbols
+*.debhelper.log

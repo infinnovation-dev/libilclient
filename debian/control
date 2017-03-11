@@ -1,0 +1,22 @@
+Source: libilclient
+Priority: extra
+Maintainer: Colin Hogben (Piwall software) <colin@piwall.co.uk>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, pkg-config,
+ libraspberrypi-dev
+Standards-Version: 3.9.3
+Section: libs
+
+Package: libilclient-dev
+Section: libdevel
+Architecture: any
+Depends: libraspberrypi-dev, ${misc:Depends}
+Description: Development files for libilclient
+ Include files for building against libilclient
+
+Package: libilclient1
+Section: libs
+Architecture: armhf
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ libraspberrypi0
+Description: Library for easier use of OpenMAX Interface Layer
+ Library used in hello_pi examples.
