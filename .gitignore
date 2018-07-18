@@ -11,3 +11,6 @@ libtool
 ltmain.sh
 missing
 stamp-h1
+m4
+ar-lib
+
